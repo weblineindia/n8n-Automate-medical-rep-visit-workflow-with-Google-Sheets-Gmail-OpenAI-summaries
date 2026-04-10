@@ -1,5 +1,16 @@
-
 # Automate Medical Rep Visit Workflow with Google Sheets, Gmail & OpenAI Summaries
+
+## Prerequisites
+
+Before using this workflow, ensure you have:
+
+* An [n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi)
+* A configured workflow automation platform (n8n recommended)
+* Google Sheets with MR visit planning data
+* Google Form linked for visit reporting
+* Google Sheets OAuth2 credentials
+* Gmail OAuth2 credentials
+* OpenAI API credentials
 
 This n8n workflow automates the **daily reporting lifecycle for Medical Representatives (MRs)** — assigning daily visits from Google Sheets, emailing visit details, sending reminders for pending updates, converting Google Form responses into structured **AI-generated summaries**, and emailing consolidated daily reports to managers.
 
